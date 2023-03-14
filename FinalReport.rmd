@@ -60,8 +60,13 @@ According to the data, whites are more in favor of capitol punishment the most f
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+table1 <- xtabs(~race + cappun, data=mydata)
+rowPerc(table1)
+colPerc(table1)
+```
 
-
+The row data shows 65% of whites who voted are in favor of capitol punishment with nearly 35% of them disagreeing. 57% of blacks who voted are opposed to capitol punishment and 42% of them are in favor. 55% of other races are in favor and 44% of them are against it.
 
 ## Now with More data
 
