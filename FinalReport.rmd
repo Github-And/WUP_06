@@ -76,8 +76,18 @@ The row data shows 65% of whites who voted are in favor of capitol punishment wi
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
-`
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
+```{r}
+fisherXY(mydata$race, mydata$cappun, printAll = TRUE)
+```
+
+
+In Person's chi-squared test, we can see 1300 white people are in favor of capitol punishment and 697 of them are not in favor. 257 black people are against capitol punishment and 191 are in favor. For the other races, 138 of them support it and 112 oppose it. This comes to a total of 2695 participants that voted. For the Fisher's test, the p-value for comparing white, other, white, black, and black, other were all below 1 nearing the 0.2 range. Meaning all races are different from one another.
 
 ## More data version
 
