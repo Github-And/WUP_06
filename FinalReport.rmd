@@ -91,3 +91,4 @@ In Person's chi-squared test, there are 416 whites that are in favor of capitol 
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
+In summary, whites are the most in favor for capitol punishment than the other races. Blacks are the second highest in favor followed by other races. Blacks are also the highest to oppose capitol punishment as well followed by other races and whites are the least opposed. This data differs from the master branch, but only because the data in this branch has a smaller sampling size. Therefor there is not enough statistical data to make an accurate comparison.
